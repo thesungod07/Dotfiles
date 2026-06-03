@@ -1,0 +1,6 @@
+
+configuration {
+    drun {
+        display-name: "";
+    }
+}

@@ -1,0 +1,92 @@
+* {
+    font:             "CodeNewRoman Nerd Font Mono 12";
+    background-color: transparent;
+    text-color:       #cdd6f4;
+}
+
+configuration {
+    show-icons:      true;
+    icon-theme:      "Papirus";
+    display-dmenu:   "";
+    kb-cancel:       "Escape";
+    kb-accept-entry: "Return,KP_Enter";
+}
+
+window {
+    transparency:     "real";
+    background-color: #11111b80;
+    border:           0px;
+    border-radius:    20px;
+    width:            500px;
+    location:         center;
+    anchor:           center;
+    padding:          0px;
+}
+
+mainbox {
+    background-color: transparent;
+    children:         [ inputbar, listview ];
+    spacing:          0px;
+    padding:          20px;
+}
+
+inputbar {
+    border-radius:    8px;
+    padding:          12px 16px;
+    margin:           0px 0px 10px 0px;
+    children:         [ prompt, entry ];
+    spacing:          8px;
+    border:           1px;
+    border-color:     #cdd6f4;
+}
+
+prompt {
+    background-color: transparent;
+    text-color:       #cdd6f4;
+    vertical-align:   0.5;
+}
+
+entry {
+    background-color:  transparent;
+    text-color:        #cdd6f4;
+    placeholder:       "Search";
+    placeholder-color: #cdd6f4;
+    cursor:            text;
+    vertical-align:    0.5;
+}
+
+listview {
+    background-color: transparent;
+    padding:          0px 10px;
+    lines:            8;
+    fixed-height:     false;
+    spacing:          2px;
+    border:           0px;
+}
+
+element {
+    background-color: transparent;
+    padding:          10px 12px;
+    border-radius:    6px;
+    orientation:      horizontal;
+    spacing:          12px;
+}
+
+element selected {
+    background-color: #33cdd6f4;
+}
+
+element-icon {
+    size:             24px;
+    vertical-align:   0.5;
+}
+
+element-text {
+    background-color: transparent;
+    text-color:       #cdd6f4;
+    vertical-align:   0.5;
+}
+
+element selected element-text {
+    text-color: #ffffff;
+}
