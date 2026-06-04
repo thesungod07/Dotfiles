@@ -1,5 +1,10 @@
 @import url('../../.cache/wal/colors-waybar.css');
 
+{
+  box-shadow: none;
+  outline:    none;
+}
+
 window#osd {
     border-radius: 18px;
     background:    alpha(@background, 0.65);
@@ -21,14 +26,11 @@ window#osd image {
     min-height:           28px;
 }
 
-/* This targets the percentage numbers inside the OSD pill box */
 window#osd label {
     color:       @foreground;
-    font-family: "Hurmit Nerd Font", sans-serif;
-    font-size:   13px;
-    font-weight: 700;
-    min-width:   35px;
-    margin-left: 4px;
+    font-size:   11px;
+    font-weight: 600;
+    min-width:   30px;
 }
 
 window#osd image:disabled,
