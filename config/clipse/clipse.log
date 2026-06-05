@@ -71,3 +71,32 @@
 2026/06/05 00:30:17 logger.go:29: INFO: CUSTOM THEME DISABLED
 2026/06/05 00:31:04 logger.go:29: INFO: CUSTOM THEME DISABLED
 2026/06/05 00:31:08 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/06/05 00:34:58 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/06/05 00:34:58 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/06/05 00:34:58 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/06/05 00:34:58 logger.go:37: WARN: Failed to get active window on Wayland: no suitable tool found (Hyprctl, Wlrctl)
+2026/06/05 00:34:58 logger.go:37: WARN: Failed to get active window on Wayland: no suitable tool found (Hyprctl, Wlrctl)
+2026/06/05 01:55:06 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/06/05 01:55:17 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/06/05 01:56:37 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/06/05 01:56:43 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/06/05 01:56:57 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/06/05 12:50:30 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/06/05 12:50:30 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/06/05 12:50:30 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/06/05 12:50:30 logger.go:37: WARN: Failed to get active window on Wayland: no suitable tool found (Hyprctl, Wlrctl)
+2026/06/05 12:50:30 logger.go:37: WARN: Failed to get active window on Wayland: no suitable tool found (Hyprctl, Wlrctl)
+2026/06/05 13:32:17 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/06/05 13:32:21 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/06/05 13:32:41 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/06/06 06:20:56 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/06/06 06:20:57 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/06/06 06:20:57 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/06/06 06:20:57 logger.go:37: WARN: Failed to get active window on Wayland: no suitable tool found (Hyprctl, Wlrctl)
+2026/06/06 06:20:57 logger.go:37: WARN: Failed to get active window on Wayland: no suitable tool found (Hyprctl, Wlrctl)
+2026/06/06 00:53:51 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/06/06 00:57:31 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/06/06 00:57:50 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/06/06 00:58:00 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/06/06 00:58:06 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/06/06 00:58:12 logger.go:29: INFO: CUSTOM THEME DISABLED
