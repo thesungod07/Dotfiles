@@ -1,0 +1,27 @@
+2026-06-19 13:22:51.404 [info] Extension host with pid 70552 started
+2026-06-19 13:22:51.495 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-06-19 13:22:51.526 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-06-19 13:22:51.600 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-06-19 13:22:51.606 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-06-19 13:22:51.657 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-06-19 13:22:51.752 [info] Eager extensions activated
+2026-06-19 13:22:51.803 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-06-19 13:22:51.806 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-06-19 13:23:12.688 [info] Extension host terminating: received terminate message from renderer
+2026-06-19 13:23:12.700 [info] Extension host with pid 70552 exiting with code 0
+2026-06-19 13:23:13.872 [info] Extension host with pid 70775 started
+2026-06-19 13:23:13.873 [info] Skipping acquiring lock for /home/apollo/.config/Code/User/workspaceStorage/69985622d02e7ca78b4e70c188416718.
+2026-06-19 13:23:13.909 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-06-19 13:23:13.937 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-06-19 13:23:14.001 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2026-06-19 13:23:14.012 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-06-19 13:23:14.052 [info] Eager extensions activated
+2026-06-19 13:23:14.068 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-06-19 13:23:14.071 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-06-19 13:23:18.917 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2026-06-19 13:23:21.137 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2026-06-19 13:23:21.151 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2026-06-19 13:23:21.588 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2026-06-19 13:23:21.600 [info] ExtensionService#_doActivateExtension vscode.mermaid-markdown-features, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2026-06-19 13:26:18.553 [info] Extension host terminating: received terminate message from renderer
+2026-06-19 13:26:18.594 [info] Extension host with pid 70775 exiting with code 0

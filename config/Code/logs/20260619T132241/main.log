@@ -1,0 +1,10 @@
+2026-06-19 13:22:41.761 [info] StorageMainService: creating application shared storage
+2026-06-19 13:22:42.039 [info] [shared storage] Creating shared storage database at '/home/apollo/.vscode-shared/sharedStorage/state.vscdb' (wasCreated: true)
+2026-06-19 13:22:42.039 [info] [shared storage] Initializing fallback application storage (path: /home/apollo/.config/Code/User/globalStorage/state.vscdb)
+2026-06-19 13:22:42.044 [info] [shared storage] Fallback application storage initialized with 3 items
+2026-06-19 13:22:42.048 [info] update#setState idle
+2026-06-19 13:22:52.501 [info] Extension host with pid 70390 exited with code: 0, signal: unknown.
+2026-06-19 13:23:12.050 [info] update#setState checking for updates
+2026-06-19 13:23:12.129 [info] update#setState available for download
+2026-06-19 13:23:12.700 [info] Extension host with pid 70552 exited with code: 0, signal: unknown.
+2026-06-19 13:26:18.596 [info] Extension host with pid 70775 exited with code: 0, signal: unknown.

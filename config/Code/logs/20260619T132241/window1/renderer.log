@@ -1,0 +1,8 @@
+2026-06-19 13:22:44.739 [warning] Creation of workbench contribution 'workbench.contrib.chatSetup' took 26ms.
+2026-06-19 13:22:45.672 [info] Started local extension host with pid 70390.
+2026-06-19 13:22:45.759 [info] Started initializing default profile extensions in extensions installation folder. file:///home/apollo/.vscode/extensions
+2026-06-19 13:22:46.000 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/apollo/.vscode/extensions
+2026-06-19 13:22:46.741 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-06-19 13:22:47.097 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-06-19 13:22:49.442 [info] [perf] Render performance baseline is 144ms
+2026-06-19 13:22:51.742 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
