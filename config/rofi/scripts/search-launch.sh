@@ -12,6 +12,7 @@ SEARCH_FLAGS="
 !yt|https://www.youtube.com/search?search_query=
 !gh|https://github.com/search?q=
 !wiki|https://en.wikipedia.org/wiki/Special:Search?search=
+!shodan|https://www.shodan.io/search?query=
 "
 
 rebuild_cache() {
