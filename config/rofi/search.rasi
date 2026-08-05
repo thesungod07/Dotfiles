@@ -73,7 +73,8 @@ element {
 }
 
 element selected {
-    background-color: #33cdd6f4;
+    background-color: #FF0000;
+
 }
 
 element-icon {

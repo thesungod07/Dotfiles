@@ -8,7 +8,7 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
   "base_keymap": "VSCode",
-  "vim_mode": true,
+  "vim_mode": false,
   "agent_servers": {
     "cursor": {
       "type": "registry"
