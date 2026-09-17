@@ -34,15 +34,20 @@ main() {
         exit 0
     fi
 
-    # Static image — full wal theming pipeline
-    wal -i "$selected_wallpaper" -n --cols16
+    # Static image — wal theming disabled to preserve Kali translucent palette
+    # Previously: wal -i "$selected_wallpaper" -n --cols16 generated monotone red (#120707) palette from test.jpg
+    # Patched: Keep Kali Tango palette (translucent #0a0a0a) - uncomment below to re-enable wal
+    # wal -i "$selected_wallpaper" -n --cols16
 
     pkill swayosd-server
     swayosd-server &
     swaync-client --reload-css
 
-    cat ~/.cache/wal/colors-kitty.conf > ~/.config/kitty/current-theme.conf
-    pywalfox update
+    # Preserve Kali theme - don't overwrite kitty with wal's monotone colors-kitty.conf
+    # cat ~/.cache/wal/colors-kitty.conf > ~/.config/kitty/current-theme.conf
+    echo "Preserving Kali translucent kitty theme (not overwriting with wal)" 
+    # pywalfox update - disabled, would push wal red to Firefox
+    # pywalfox update
 
     color1=$(awk 'match($0, /color2=\47(.*)\47/,a) { print a[1] }' ~/.cache/wal/colors.sh)
     color2=$(awk 'match($0, /color3=\47(.*)\47/,a) { print a[1] }' ~/.cache/wal/colors.sh)

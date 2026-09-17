@@ -70,3 +70,21 @@
 2026-08-10 09:11:53 Success.
 2026-08-10 09:11:53 Latest version is 1.13.4
 2026-08-10 09:11:53 App is up to date.
+2026-08-13 04:02:29 Loaded main app package /usr/lib/obsidian/obsidian.asar
+2026-08-13 04:02:29 Checking for update using Github
+2026-08-13 04:02:29 Success.
+2026-08-13 04:02:29 Latest version is 1.13.7
+2026-08-13 04:02:29 Downloading update from https://github.com/obsidianmd/obsidian-releases/releases/download/v1.13.7/obsidian-1.13.7.asar.gz
+2026-08-13 04:02:48 Verifying hash & signature. Size= 8773048
+2026-08-13 04:02:48 Saving file
+2026-08-13 04:02:48 Update complete.
+2026-08-13 04:02:53 Loaded updated app /home/apollo/.config/obsidian/obsidian-1.13.7.asar
+2026-08-13 04:02:53 Checking for update using Github
+2026-08-13 04:02:53 Success.
+2026-08-13 04:02:53 Latest version is 1.13.7
+2026-08-13 04:02:53 App is up to date.
+2026-08-15 12:25:41 Loaded updated app /home/apollo/.config/obsidian/obsidian-1.13.7.asar
+2026-08-15 12:25:41 Checking for update using Github
+2026-08-15 12:25:41 Success.
+2026-08-15 12:25:41 Latest version is 1.13.7
+2026-08-15 12:25:41 App is up to date.

@@ -1,0 +1,30 @@
+foreground         #c3c1c1
+background         #120707
+background_opacity 1.0
+cursor             #c3c1c1
+
+active_tab_foreground     #120707
+active_tab_background     #c3c1c1
+inactive_tab_foreground   #c3c1c1
+inactive_tab_background   #120707
+
+active_border_color   #c3c1c1
+inactive_border_color #120707
+bell_border_color     #7d0e0f
+
+color0       #120707
+color8       #6a5656
+color1       #7d0e0f
+color9       #A71315
+color2       #6c1f20
+color10      #912A2B
+color3       #832323
+color11      #AF2F2F
+color4       #812f2f
+color12      #AD3F3F
+color5       #9a1e1f
+color13      #CE292A
+color6       #803939
+color14      #AB4D4D
+color7       #968c8c
+color15      #c3c1c1

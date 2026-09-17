@@ -29,11 +29,11 @@ local function sync_lualine_theme(theme_name)
 end
 
 local function apply_pywal_plugin_overrides()
-    local color_bg = vim.g.background or "#000000"
-    local color_fg = vim.g.foreground or "#ffffff"
-    local color1 = vim.g.color1 or color_fg
-    local color5 = vim.g.color5 or color_fg
-    local color9 = vim.g.color9 or color_fg
+    local color_bg = vim.g.background or "#120707"
+    local color_fg = vim.g.foreground or "#c3c1c1"
+    local color1 = vim.g.color1 or "#7d0e0f"
+    local color5 = vim.g.color5 or "#9a1e1f"
+    local color9 = vim.g.color9 or "#A71315"
 
     -- These are configured during startup in cmdline/noice config and need to
     -- be reapplied when returning to pywal.
@@ -47,6 +47,39 @@ local function apply_pywal_plugin_overrides()
     vim.api.nvim_set_hl(0, "NeoTreeNormal", { fg = color_fg, bg = color_bg })
     vim.api.nvim_set_hl(0, "NeoTreeNormalNC", { fg = color_fg, bg = color_bg })
     vim.api.nvim_set_hl(0, "NeoTreeWinSeparator", { fg = color1, bg = color_bg })
+
+    -- Black/red terminal with darker command/syntax only - keep UI black/red, syntax darker (not bright)
+    -- These overrides make code syntax use darker Tango colors while UI stays black/red
+    vim.api.nvim_set_hl(0, "Comment", { fg = "#6a5656", italic = true })
+    vim.api.nvim_set_hl(0, "String", { fg = "#c4a000" })
+    vim.api.nvim_set_hl(0, "Character", { fg = "#c4a000" })
+    vim.api.nvim_set_hl(0, "Function", { fg = "#4e9a06", bold = true })
+    vim.api.nvim_set_hl(0, "Identifier", { fg = "#3465a4" })
+    vim.api.nvim_set_hl(0, "Statement", { fg = "#75507b", bold = true })
+    vim.api.nvim_set_hl(0, "Keyword", { fg = "#75507b" })
+    vim.api.nvim_set_hl(0, "Conditional", { fg = "#75507b" })
+    vim.api.nvim_set_hl(0, "Repeat", { fg = "#75507b" })
+    vim.api.nvim_set_hl(0, "Type", { fg = "#06989a" })
+    vim.api.nvim_set_hl(0, "StorageClass", { fg = "#06989a" })
+    vim.api.nvim_set_hl(0, "Structure", { fg = "#06989a" })
+    vim.api.nvim_set_hl(0, "Constant", { fg = "#c4a000" })
+    vim.api.nvim_set_hl(0, "Number", { fg = "#c4a000" })
+    vim.api.nvim_set_hl(0, "Boolean", { fg = "#c4a000" })
+    vim.api.nvim_set_hl(0, "Operator", { fg = "#c3c1c1" })
+    vim.api.nvim_set_hl(0, "PreProc", { fg = "#75507b" })
+    vim.api.nvim_set_hl(0, "Special", { fg = "#06989a" })
+    vim.api.nvim_set_hl(0, "Todo", { fg = "#000000", bg = "#c4a000", bold = true })
+    vim.api.nvim_set_hl(0, "Error", { fg = "#7d0e0f", bold = true, underline = true })
+    -- Treesitter groups - darker
+    vim.api.nvim_set_hl(0, "@comment", { fg = "#6a5656", italic = true })
+    vim.api.nvim_set_hl(0, "@string", { fg = "#c4a000" })
+    vim.api.nvim_set_hl(0, "@function", { fg = "#4e9a06", bold = true })
+    vim.api.nvim_set_hl(0, "@function.call", { fg = "#4e9a06" })
+    vim.api.nvim_set_hl(0, "@keyword", { fg = "#75507b" })
+    vim.api.nvim_set_hl(0, "@type", { fg = "#06989a" })
+    vim.api.nvim_set_hl(0, "@variable", { fg = "#c3c1c1" })
+    vim.api.nvim_set_hl(0, "@constant", { fg = "#c4a000" })
+    vim.api.nvim_set_hl(0, "@number", { fg = "#c4a000" })
 end
 
 local function set_colorscheme(theme)
