@@ -1,4 +1,4 @@
-# Common recent settings file for Wireshark 4.7.1.
+# Common recent settings file for Wireshark 4.7.3.
 #
 # This file is regenerated each time Wireshark is quit
 # and when changing configuration profile.
@@ -7,20 +7,27 @@
 ######## Recent capture files (latest last), cannot be altered through command line ########
 
 recent.capture_file: monitoringservice_export_202610AM-11AM.pcapng
+recent.capture_file: /home/apollo/Downloads/demo.pcapng
+recent.capture_file: /home/apollo/Downloads/ir/beacon_capture.pcap
+recent.capture_file: /home/apollo/Downloads/capture.pcap
 
 ######## Recent capture filters (latest first), cannot be altered through command line ########
 
 
 ######## Recent display filters (latest last), cannot be altered through command line ########
 
+recent.display_filter: http
+recent.display_filter: ftp
+recent.display_filter: snmp
+recent.display_filter: http contains "card"
 recent.display_filter: telnet
 
 # Main window geometry.
 # Decimal numbers.
-gui.geometry_main_x: 1438
-gui.geometry_main_y: 9
-gui.geometry_main_width: 1280
-gui.geometry_main_height: 800
+gui.geometry_main_x: 0
+gui.geometry_main_y: 0
+gui.geometry_main_width: 1516
+gui.geometry_main_height: 893
 
 # Main window maximized.
 # true or false (case-insensitive).
@@ -28,7 +35,7 @@ gui.geometry_main_maximized: true
 
 # Main window geometry state.
 # Hex byte string.
-gui.geometry_main: 01d9d0cb000300000000059e0000000900000a9d000003280000000000000000fffffffefffffffe000000000204000005000000059e0000000900000a9d00000328
+gui.geometry_main: 01d9d0cb000300000000000000000000000005eb0000037c0000000000000000fffffffefffffffe000000000200000006000000000000000000000005eb0000037c
 
 # Leftalign Action Buttons.
 # true or false (case-insensitive).

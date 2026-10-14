@@ -1,4 +1,12 @@
-2026/08/13-09:34:38.250 555c Reusing MANIFEST /home/apollo/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
-2026/08/13-09:34:38.250 555c Recovering log #21
-2026/08/13-09:34:38.250 555c Reusing old log /home/apollo/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000021.log 
-2026/08/13-09:34:38.250 555c Delete type=2 #20
+2026/10/13-23:16:54.221 543ea Reusing MANIFEST /home/apollo/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
+2026/10/13-23:16:54.221 543ea Recovering log #68
+2026/10/13-23:16:54.231 543ea Reusing old log /home/apollo/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000068.log 
+2026/10/13-23:50:02.638 543ea Level-0 table #73: started
+2026/10/13-23:50:02.656 543ea Level-0 table #73: 1788396 bytes OK
+2026/10/13-23:50:02.660 543ea Delete type=0 #68
+2026/10/13-23:53:22.866 543ea Compacting 1@1 + 1@2 files
+2026/10/13-23:53:22.876 543ea Generated table #74@1: 785 keys, 263678 bytes
+2026/10/13-23:53:22.876 543ea Compacted 1@1 + 1@2 files => 263678 bytes
+2026/10/13-23:53:22.879 543ea compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/10/13-23:53:22.879 543ea Delete type=2 #70
+2026/10/13-23:53:22.880 543ea Delete type=2 #73
